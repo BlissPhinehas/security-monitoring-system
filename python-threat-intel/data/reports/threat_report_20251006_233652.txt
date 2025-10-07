@@ -1,0 +1,45 @@
+======================================================================
+THREAT INTELLIGENCE REPORT
+======================================================================
+Generated: 2025-10-06 23:36:52
+
+ANALYSIS DATA:
+----------------------------------------------------------------------
+ip: 8.8.8.8
+analysis_timestamp: 2025-10-06T23:36:52.536981
+sources:
+  abuseipdb:
+    source: AbuseIPDB
+    ip: 8.8.8.8
+    abuse_confidence_score: 0
+    country: US
+    usage_type: Content Delivery Network
+    isp: Google LLC
+    domain: google.com
+    total_reports: 114
+    is_whitelisted: True
+    is_malicious: False
+    timestamp: 2025-10-06T23:36:51.444203
+  virustotal:
+    source: VirusTotal
+    ip: 8.8.8.8
+    malicious_votes: 0
+    suspicious_votes: 0
+    harmless_votes: 62
+    undetected_votes: 33
+    total_scanners: 95
+    malicious_percentage: 0.0
+    is_malicious: False
+    country: US
+    as_owner: GOOGLE
+    timestamp: 2025-10-06T23:36:52.533582
+summary:
+  is_threat: False
+  threat_level: MINIMAL
+  confidence_score: 0.0
+  threats_found:
+  recommendation: ALLOW - No significant threats detected
+
+======================================================================
+End of Report
+======================================================================

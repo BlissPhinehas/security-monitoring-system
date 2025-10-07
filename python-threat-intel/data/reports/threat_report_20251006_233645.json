@@ -1,0 +1,47 @@
+{
+  "report_metadata": {
+    "generated_at": "2025-10-06T23:36:45.830647",
+    "report_type": "Threat Intelligence Analysis",
+    "version": "1.0.0"
+  },
+  "analysis_data": {
+    "ip": "8.8.8.8",
+    "analysis_timestamp": "2025-10-06T23:36:45.824345",
+    "sources": {
+      "abuseipdb": {
+        "source": "AbuseIPDB",
+        "ip": "8.8.8.8",
+        "abuse_confidence_score": 0,
+        "country": "US",
+        "usage_type": "Content Delivery Network",
+        "isp": "Google LLC",
+        "domain": "google.com",
+        "total_reports": 114,
+        "is_whitelisted": true,
+        "is_malicious": false,
+        "timestamp": "2025-10-06T23:36:45.090016"
+      },
+      "virustotal": {
+        "source": "VirusTotal",
+        "ip": "8.8.8.8",
+        "malicious_votes": 0,
+        "suspicious_votes": 0,
+        "harmless_votes": 62,
+        "undetected_votes": 33,
+        "total_scanners": 95,
+        "malicious_percentage": 0.0,
+        "is_malicious": false,
+        "country": "US",
+        "as_owner": "GOOGLE",
+        "timestamp": "2025-10-06T23:36:45.822036"
+      }
+    },
+    "summary": {
+      "is_threat": false,
+      "threat_level": "MINIMAL",
+      "confidence_score": 0.0,
+      "threats_found": [],
+      "recommendation": "ALLOW - No significant threats detected"
+    }
+  }
+}
